@@ -47,3 +47,7 @@ resource "morpheus_group" "terraform_rg" {
   location  = "AWS"
   cloud_ids = [morpheus_aws_cloud.AWS-grigorenko.id]
 }
+
+data "morpheus_tenant" "example_tenant" {
+
+}
